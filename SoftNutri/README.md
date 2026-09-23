@@ -2,101 +2,104 @@
 
 Sistema desktop desenvolvido em **Java Swing** durante minha formação técnica em **Desenvolvimento de Sistemas pelo Senac**.
 
-O projeto foi desenvolvido para praticar a construção de uma aplicação com interface gráfica, organização de classes, armazenamento de dados em memória, validação de informações e implementação de regras de negócio relacionadas ao cadastro e gerenciamento de consultas nutricionais.
+O projeto foi desenvolvido para praticar a construção de uma aplicação com interface gráfica, organização de classes, validação de dados e implementação de regras de negócio relacionadas ao cadastro e gerenciamento de consultas nutricionais.
 
-> 📚 Projeto acadêmico desenvolvido a partir dos requisitos trabalhados durante o curso. O código presente neste repositório corresponde à versão desenvolvida durante a atividade.
+> 📚 **Projeto acadêmico:** esta aplicação foi desenvolvida durante o curso a partir dos requisitos propostos na atividade. O código presente neste repositório corresponde à versão desenvolvida durante os estudos.
 
 ## 🎯 Objetivo
 
-Desenvolver uma aplicação capaz de organizar informações de pacientes e consultas nutricionais por meio de uma interface gráfica.
+Desenvolver uma aplicação capaz de cadastrar, consultar e gerenciar informações relacionadas a consultas nutricionais por meio de uma interface gráfica.
 
 ## 🖥️ Funcionalidades
 
-- Cadastro de consultas
-- Validação de campos
-- Validação de CPF
-- Validação de telefone
-- Validação de data
-- Visualização de consultas em tabela
-- Exclusão de consulta
-- Acesso aos detalhes da consulta
-- Registro de observações
-- Finalização de consulta
-- Atualização do status da consulta
+* Cadastro de consultas
+* Validação dos dados informados
+* Validação de CPF
+* Validação de telefone
+* Validação de data
+* Visualização das consultas cadastradas
+* Exibição dos dados em tabela
+* Exclusão de consulta
+* Visualização dos detalhes da consulta
+* Registro de observações
+* Finalização da consulta
+* Atualização do status da consulta
 
 ## 🧩 Conceitos praticados
 
-- Java
-- Programação Orientada a Objetos
-- Classes e objetos
-- Encapsulamento
-- Construtores
-- Métodos
-- Organização em pacotes
-- `ArrayList`
-- Java Swing
-- `JFrame`
-- `JTable`
-- `JOptionPane`
-- Campos e componentes de interface
-- Eventos
-- Validação de dados
-- Regras de negócio
-- Manipulação de datas com `LocalDate`
+* Java
+* Programação Orientada a Objetos
+* Classes e objetos
+* Encapsulamento
+* Construtores
+* Métodos
+* Organização em pacotes
+* `ArrayList`
+* Java Swing
+* `JFrame`
+* `JTable`
+* `JOptionPane`
+* Eventos de interface
+* Validação de dados
+* Regras de negócio
+* `LocalDate`
 
 ## 🛠️ Tecnologias
 
-- Java
-- Java Swing
-- NetBeans
-- GUI Builder do NetBeans
+* **Java**
+* **Java Swing**
+* **NetBeans**
 
-## 📁 Estrutura principal
+## 📁 Estrutura do projeto
+
+Para manter o repositório simples de navegar, esta publicação contém a documentação e os arquivos-fonte Java:
 
 ```text
 SoftNutri/
-├── src/
-│   └── softnutri/
-│       ├── Consulta.java
-│       ├── Dados.java
-│       ├── SoftNutri.java
-│       ├── TelaCadastro.java
-│       ├── TelaCadastro.form
-│       ├── TelaDetalhesConsulta.java
-│       ├── TelaDetalhesConsulta.form
-│       ├── TelaInicial.java
-│       └── TelaInicial.form
-│
-├── nbproject/
-├── build.xml
-└── manifest.mf
+├── README.md
+└── softnutri/
+    ├── Consulta.java
+    ├── Dados.java
+    ├── SoftNutri.java
+    ├── TelaCadastro.java
+    ├── TelaDetalhesConsulta.java
+    └── TelaInicial.java
 ```
 
 ### Principais classes
 
-**Consulta.java**  
-Representa os dados de uma consulta e utiliza atributos, construtor, getters e setters.
+**Consulta.java**
+Representa os dados de uma consulta e contém os atributos, construtor, getters e setters utilizados pelo sistema.
 
-**Dados.java**  
-Mantém a coleção de consultas utilizando `ArrayList`.
+**Dados.java**
+Responsável por manter a coleção de consultas utilizando `ArrayList`.
 
-**TelaCadastro.java**  
-Responsável pela entrada dos dados e pelas validações do cadastro.
+**SoftNutri.java**
+Classe de inicialização da aplicação.
 
-**TelaInicial.java**  
-Apresenta as consultas cadastradas em uma `JTable` e permite acessar as ações principais.
+**TelaCadastro.java**
+Responsável pelo cadastro das consultas e pelas validações dos dados informados.
 
-**TelaDetalhesConsulta.java**  
-Permite visualizar uma consulta, registrar observações e finalizar o atendimento.
+**TelaInicial.java**
+Apresenta as consultas cadastradas em uma tabela e disponibiliza as principais ações do sistema.
 
-## 💾 Armazenamento
+**TelaDetalhesConsulta.java**
+Permite visualizar os detalhes de uma consulta, registrar observações e finalizar o atendimento.
 
-Nesta versão acadêmica, os dados são mantidos em memória por meio de um `ArrayList`.
+## 💾 Armazenamento dos dados
 
-Portanto, esta versão não utiliza banco de dados nem persistência em arquivo.
+Nesta versão acadêmica, as consultas são armazenadas em memória utilizando `ArrayList`.
+
+Por isso, esta versão não utiliza banco de dados nem persistência em arquivo.
+
+## 📚 Contexto acadêmico
+
+Projeto desenvolvido como atividade prática durante o curso Técnico em **Desenvolvimento de Sistemas pelo Senac**.
+
+O objetivo principal foi aplicar, em uma única aplicação, conceitos estudados ao longo das aulas de Java e Programação Orientada a Objetos.
 
 ## 🚀 Evolução
 
-Este projeto representa uma etapa importante da minha prática em Java porque reúne conceitos estudados separadamente em uma aplicação com várias telas, validações e regras de negócio.
+Este projeto representa uma etapa da minha evolução prática em Java, reunindo conceitos de programação, interface gráfica, validação e regras de negócio em uma aplicação com múltiplas telas.
 
-Meu próximo passo de evolução é aprofundar persistência de dados, banco de dados, APIs e desenvolvimento backend.
+Como próximos passos de estudo, pretendo aprofundar conhecimentos em **persistência de dados, banco de dados, APIs e desenvolvimento backend**.
