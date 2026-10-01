@@ -1,81 +1,53 @@
-☕ Java — Projetos Acadêmicos
+# Java — Projetos Acadêmicos
 
-Repositório criado para reunir projetos e atividades práticas desenvolvidos durante minha formação em Desenvolvimento de Sistemas pelo Senac.
+Repositório que reúne projetos e atividades práticas desenvolvidos durante minha formação técnica em Desenvolvimento de Sistemas.
 
-Os projetos registram minha evolução nos fundamentos de Java, Programação Orientada a Objetos, interfaces gráficas, validação de dados, estruturas de dados e regras de negócio.
+Os exercícios e aplicações registram minha prática com fundamentos de Java, lógica de programação, Programação Orientada a Objetos, interfaces gráficas, validação de dados e regras de negócio.
 
-📚 Este é um portfólio acadêmico em desenvolvimento. Os projetos refletem meu processo de aprendizagem e os requisitos das atividades realizadas durante o curso.
+> Portfólio acadêmico em desenvolvimento. Os projetos representam atividades de estudo e não experiência profissional.
 
-📂 Projetos
+## Projetos
 
-🥗 SoftNutri
+### SoftNutri
 
 Aplicação desktop em Java Swing para cadastro e gerenciamento de consultas nutricionais.
 
-Conceitos: Java, POO, Swing, JFrame, JTable, ArrayList, validações, regras de negócio e múltiplas telas.
+**Conceitos praticados:** Java, POO, Swing, JFrame, JTable, modelos de tabela, validações e organização de telas.
 
-👥 SistemaFuncionarios
+### SistemaFuncionarios
 
-Projeto desenvolvido para praticar herança, classe abstrata e polimorfismo.
+Projeto para praticar conceitos de orientação a objetos.
 
-Conceitos: Java, POO, herança, polimorfismo, classe abstrata, @Override, arrays e Scanner.
+**Conceitos praticados:** herança, classe abstrata, polimorfismo, sobrescrita de métodos, arrays e entrada de dados.
 
-🧾 Sistema Contábil
+### Sistema Contábil
 
-Aplicação para cadastro e cálculo de diferentes impostos.
+Aplicação de cadastro e cálculo de diferentes impostos.
 
-Conceitos: Java, interfaces, polimorfismo, List, ArrayList e regras de cálculo.
+**Conceitos praticados:** interfaces, polimorfismo, listas, ArrayList e regras de cálculo.
 
-🧮 Calculadora IMC
+### Calculadora IMC
 
-Aplicação desktop desenvolvida para praticar interfaces gráficas, eventos, validações e navegação entre telas.
+Aplicação desktop para calcular o índice de massa corporal.
 
-Conceitos: Java Swing, JFrame, componentes de interface, eventos e validação de entrada.
+**Conceitos praticados:** Java Swing, JFrame, componentes de interface, eventos e validação de entradas.
 
-🛠️ Tecnologias e conceitos
+## Tecnologias e ferramentas
 
-Java
+- Java
+- Programação Orientada a Objetos
+- Classes, objetos e encapsulamento
+- Herança, polimorfismo e interfaces
+- Arrays, List e ArrayList
+- Java Swing
+- JFrame, JTable e JOptionPane
+- Scanner
+- NetBeans
 
-Programação Orientada a Objetos
+## Objetivo
 
-Lógica de programação
+Consolidar os fundamentos de Java por meio de exercícios e projetos, compreendendo a responsabilidade de cada classe, o fluxo da aplicação e a implementação das regras de negócio.
 
-Classes e objetos
+## Evolução
 
-Encapsulamento
-
-Herança
-
-Polimorfismo
-
-Interfaces
-
-ArrayList
-
-List
-
-Java Swing
-
-JFrame
-
-JTable
-
-JOptionPane
-
-Scanner
-
-Validação de dados
-
-Regras de negócio
-
-NetBeans
-
-🎯 Objetivo do repositório
-
-Documentar minha evolução prática durante a formação técnica em Desenvolvimento de Sistemas e construir uma base de projetos que demonstre minha aplicação dos fundamentos de programação em Java.
-
-🚀 Evolução
-
-Os projetos serão atualizados e novos projetos poderão ser adicionados conforme avanço nos estudos de Java e desenvolvimento de software.
-
-Além dos projetos acadêmicos, continuo desenvolvendo projetos pessoais para aprofundar meus conhecimentos em programação e backend.
+Novas atividades serão adicionadas conforme o avanço da formação. A documentação de cada projeto deve ser consultada para verificar funcionalidades, requisitos e estágio de desenvolvimento.
