@@ -32,6 +32,13 @@ Aplicação desktop para calcular o índice de massa corporal.
 
 **Conceitos praticados:** Java Swing, JFrame, componentes de interface, eventos e validação de entradas.
 
+### Sistema de Agência de Viagens
+
+Aplicação de console desenvolvida em Java para simular operações de uma agência de viagens, incluindo transporte, hospedagem, pacotes e vendas.
+
+**Conceitos praticados:** classes e objetos, encapsulamento, associação entre classes, composição e implementação de regras de negócio.
+
+
 ## Tecnologias e ferramentas
 
 - Java
