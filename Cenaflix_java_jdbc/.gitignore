@@ -1,0 +1,22 @@
+# NetBeans e Apache Ant
+/build/
+/dist/
+/nbproject/private/
+
+# Binários/driver - dependência de ambiente
+/driver/*.jar
+*.class
+*.log
+
+# Configuração local/credenciais
+.env
+.env.*
+!.env.example
+*.secret
+*.properties.local
+
+# Sistema operacional/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
