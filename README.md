@@ -2,11 +2,19 @@
 
 Repositório que reúne projetos e atividades práticas desenvolvidos durante minha formação técnica em Desenvolvimento de Sistemas.
 
-Os exercícios e aplicações registram minha prática com fundamentos de Java, lógica de programação, Programação Orientada a Objetos, interfaces gráficas, validação de dados e regras de negócio.
+Os exercícios e aplicações registram minha prática com fundamentos de Java, lógica de programação, Programação Orientada a Objetos, interfaces gráficas, validação de dados, regras de negócio e integração com banco de dados relacional.
 
 > Portfólio acadêmico em desenvolvimento. Os projetos representam atividades de estudo e não experiência profissional.
 
 ## Projetos
+
+### [Cenaflix](Cenaflix_java_jdbc/README.md)
+
+Aplicação desktop desenvolvida como atividade acadêmica do Senac para cadastrar, consultar, atualizar e excluir filmes, com interface Java Swing e persistência no MySQL por meio de JDBC. Inclui filtro por categoria e validação de entradas.
+
+**Conceitos praticados:** Java, Swing, JDBC, MySQL, CRUD, consultas parametrizadas com PreparedStatement e separação entre modelo, conexão, DAO e interface.
+
+[Ver código, imagens e instruções de execução](Cenaflix_java_jdbc/README.md).
 
 ### SoftNutri
 
@@ -47,6 +55,8 @@ Aplicação de console desenvolvida em Java para simular operações de uma agê
 - Herança, polimorfismo e interfaces
 - Arrays, List e ArrayList
 - Java Swing
+- JDBC e MySQL
+- CRUD e consultas parametrizadas com PreparedStatement
 - JFrame, JTable e JOptionPane
 - Scanner
 - NetBeans
