@@ -16,35 +16,35 @@ Aplicação desktop desenvolvida como atividade acadêmica do Senac para cadastr
 
 [Ver código, imagens e instruções de execução](Cenaflix_java_jdbc/README.md).
 
-### SoftNutri
+### [SoftNutri](SoftNutri/README.md)
 
 Aplicação desktop em Java Swing para cadastro e gerenciamento de consultas nutricionais.
 
 **Conceitos praticados:** Java, POO, Swing, JFrame, JTable, modelos de tabela, validações e organização de telas.
 
-### SistemaFuncionarios
+### [Sistema de Funcionários](SistemaFuncionarios/README.md)
 
 Projeto para praticar conceitos de orientação a objetos.
 
 **Conceitos praticados:** herança, classe abstrata, polimorfismo, sobrescrita de métodos, arrays e entrada de dados.
 
-### Sistema Contábil
+### [Sistema Contábil](sistemaContabil/README.md)
 
 Aplicação de cadastro e cálculo de diferentes impostos.
 
 **Conceitos praticados:** interfaces, polimorfismo, listas, ArrayList e regras de cálculo.
 
-### Calculadora IMC
+### [Calculadora IMC](CalculadoraIMC/README.md)
 
 Aplicação desktop para calcular o índice de massa corporal.
 
 **Conceitos praticados:** Java Swing, JFrame, componentes de interface, eventos e validação de entradas.
 
-### Sistema de Agência de Viagens
+### [Sistema de Agência de Viagens](sistema-agencia-viagens-java/README.md)
 
 Aplicação de console desenvolvida em Java para simular operações de uma agência de viagens, incluindo transporte, hospedagem, pacotes e vendas.
 
-**Conceitos praticados:** classes e objetos, encapsulamento, associação entre classes, composição e implementação de regras de negócio.
+**Conceitos praticados:** classes e objetos, encapsulamento, associação entre classes, objetos que utilizam outros objetos e implementação de regras de negócio.
 
 
 ## Tecnologias e ferramentas
