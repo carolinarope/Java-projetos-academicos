@@ -1,8 +1,6 @@
 # 🎬 Cenaflix — Gerenciamento de filmes com Java e MySQL
 
-Aplicação desktop desenvolvida como **projeto acadêmico do curso Técnico em Desenvolvimento de Sistemas do Senac**, com foco na integração entre **Java, interface gráfica e banco de dados relacional**.
-
-O Cenaflix permite cadastrar e gerenciar filmes por meio de uma interface em **Java Swing**, utilizando **JDBC** para persistir os dados no **MySQL**.
+Projeto acadêmico de gerenciamento de filmes, com interface em Java Swing e persistência em MySQL via JDBC.
 
 ## Funcionalidades
 
